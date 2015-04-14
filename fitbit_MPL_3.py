@@ -72,5 +72,5 @@ for i in range (0, nombreColonnesAMontrer):
 	
 plt.xlabel("Jours de mesure")				#titre du graphe (ici les données de la colonne 13)
 plt.ylabel("Resultats")
-plt.title = "Lecture fitbit"				# WAS plt.title("Lecture colonne %i " % nCol)
+plt.title = ("Lecture de %i colonnes de fitbit" % nombreColonnesAMontrer)
 plt.show()									
