@@ -76,7 +76,7 @@ if __name__ == '__main__':
     # inscriptions du plot
     plt.xlabel("Jours de mesure")  #titre du graphe (ici les données de la colonne 13)
     plt.ylabel("Resultats")
-    plt.title = "Lecture fitbit"  # WAS plt.title("Lecture colonne %i " % nCol)
+    plt.title("Lecture de %i colonnes" % nombreColonnesAMontrer) # WAS: plt.title = "Lecture fitbit"
 
     # affichage du plot
     plt.show()
