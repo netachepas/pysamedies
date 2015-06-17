@@ -305,7 +305,7 @@ def main():
     # créer une liste qui stocke en mémoire vive les 20 images morphés, dans l'ordre (numerotées de 0 à 20)
     images_librairie = []
     for i in range(0,20):
-        fileImage = "animation/animation" + str(i) + ".jpg"
+        fileImage = "animation" + str(i) + ".jpg"
         image = pygame.image.load(fileImage)
         # si nécessaire, redimensionner l'image
         taille = image.get_size()         # retourne une liste, avec taille[0] = largeur et taille[1] = hauteur
