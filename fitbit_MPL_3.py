@@ -67,7 +67,7 @@ quellesColonnes = list(input("Entrez plusieurs colonnes, separes par des virgule
 nombreColonnesAMontrer = len(quellesColonnes)
 for i in range (0, nombreColonnesAMontrer):
 	yListe = creerListeColonne(quellesColonnes[i])
-	plt.plot(xListe, yListe)				# WAS pl.plot, quand on faisait import pylab as pl	
+	plt.plot(xListe, yListe,b"*")				# WAS pl.plot, quand on faisait import pylab as pl	
 	
 	
 plt.xlabel("Jours de mesure")				#titre du graphe (ici les données de la colonne 13)
